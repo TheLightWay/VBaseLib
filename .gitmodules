@@ -1,0 +1,3 @@
+[submodule "VBase"]
+	path = VBase
+	url = git@github.com:TheLightWay/VBase.git
