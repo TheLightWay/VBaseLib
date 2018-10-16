@@ -19,9 +19,6 @@
 #under the License.
 
 
-add_subdirectory( 3rdparty )
-
-
 
 set( VBASE_INC_DIR "${CMAKE_CURRENT_LIST_DIR}/include" )
 set( VBASE_SRC_DIR "${CMAKE_CURRENT_LIST_DIR}/src" )
@@ -39,7 +36,10 @@ set( VBASE_PUBLIC_INCLUDE_DIRS "${VB_PUB_INC_LIST_DIRS}" )
 set( VBASE_PRIVATE_INCLUDE_DIRS "${CMAKE_CURRENT_LIST_DIR}/src" )
 
 configure_file( ${CMAKE_CURRENT_LIST_DIR}/include/VConfig.hxx.cmakein
-	${CMAKE_CURRENT_BINARY_DIR}/include/VConfig.hxx )
+    ${CMAKE_CURRENT_BINARY_DIR}/include/VConfig.hxx )
+    
+
+add_subdirectory( 3rdparty )
 
 BeginTarget( NAME "VBase" )
 
