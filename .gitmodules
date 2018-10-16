@@ -1,6 +1,0 @@
-[submodule "VBase"]
-	path = VBase
-	url = git@github.com:TheLightWay/VBase.git
-[submodule "CMake"]
-	path = CMake
-	url = git@github.com:TheLightWay/my-cmake-modues.git
