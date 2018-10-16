@@ -42,4 +42,8 @@ include( VCommon )
 include( VFunctions )
 include( TargetAPI )
 
+DisallowIntreeBuilds()
+
+SetupOutputDirectories()
+
 add_subdirectory( VBase )
